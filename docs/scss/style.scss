@@ -1,0 +1,46 @@
+$bg-color: #0F1222;
+$pepis-orange: #DF4A39;
+$navbar-color: rgb(16, 16, 16);
+$nav-bg: #0D0D12;
+$blue-button: rgb(0, 81, 255);
+
+.centerX {
+    transform: translateX(-50%);
+    margin-left: 50%;
+}
+.centerY {
+    transform: translateY(-50%);
+    top: 50%;
+}
+.transition {
+    transition: 1s;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+body {
+    height: 2000px;
+    background: $bg-color;
+    margin: 0 auto;
+}
+
+a {
+    color: black;
+    margin: 0;
+    cursor: pointer;
+}
+a:active {
+    color: grey;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+img{
+user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;}

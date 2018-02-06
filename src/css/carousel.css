@@ -1,0 +1,13 @@
+#preview {
+  background: #2b2b2b;
+  margin-top: 200px;
+  z-index: 1100; }
+
+.carousel-item {
+  height: 50vh;
+  text-align: center;
+  color: white; }
+
+.special {
+  margin-top: 20px;
+  height: 10vh; }

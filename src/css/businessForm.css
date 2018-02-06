@@ -1,0 +1,36 @@
+.form {
+  margin-top: 550px;
+  height: 100px; }
+
+.block {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around; }
+
+.block span {
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  background: #003cff;
+  text-align: center; }
+
+.block span, .block span:after, .block span:before {
+  height: 60px;
+  width: 170px;
+  background: #003cff;
+  position: absolute;
+  line-height: 60px;
+  border-radius: 40px;
+  color: white;
+  cursor: pointer; }
+
+.block span:before {
+  background: black;
+  left: 200px;
+  content: 'Business'; }
+
+.block span:after {
+  left: -200px;
+  background: red;
+  content: 'Party'; }

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/navbar.css">
+      <link rel="stylesheet" href="css/indexHeader.css">
+      <link rel="stylesheet" href="css/carousel.css">
+      <link rel="stylesheet" href="css/search.css">
+      <link rel="stylesheet" href="css/hamburger.css">
+
+      <link rel="icon" href="img/pepis-guy.png">
+      <title>site60</title>
+    </head>
+    <body>
+  <header class="header">
+    <div id="menu-trigger" class="menu-trigger">
+      <span></span>
+    </div>
+    <div class="location"><i class="fa fa-map-marker"></i> Pepi's Locator</div>
+    <img class="pepisLogo" src="img/pepisSign.svg">
+    <img class="celebrateLogo" src="img/celebrating.png" alt="">
+  </header>
+  
+  <section id="sideNavigation">
+    <div class="navClosed">
+      <div class="wrapper">
+        <div class="content">
+          <h1 id="date" class="date"></h1>
+          <h3 id="time" class="time"></h3>
+        </div>
+      </div>
+      <img class="sideImage centerX" src="img/pepisguy.svg" alt="">
+      <a href="/business.html"><li class="sideLinkOpened sideLinkClosed">Business | Party Orders</li></a>
+      <a href=""><li class="sideLinkOpened sideLinkClosed">Contact</li></a>
+      <a href=""><li class="sideLinkOpened sideLinkClosed">About Pepi's</li></a>
+    </div>
+    <div class="navRightClosed"></div>
+  </section>
+
+  <div class="closedLocation">
+    <div class="unit">
+        <input id="pac-input" type="text" placeholder="Search Box">
+        <div id="get_location">Your Location</div>
+        <div class="closeMap"><i class="fa fa-close"></i></div>
+    </div>
+    <div id="map"></div>
+  <div class="store centerX">
+   <a href="#"><img class="storePicture K" src="img/pepisWater.png"></a>
+   <a href="#"><img class="storePicture W" src="img/pepisWater.png"></a>
+   <a href="#"><img class="storePicture C" src="img/pepisWater.png"></a>
+  </div>
+  </div>
+
+  
+
+  <nav id="navbar">
+    <div id="mainNav" class="mainNav">
+      <a href="/pizza.html"><li class="link pizza">pizza</li></a>
+      <a href="#"><li class="link subs">subs</li></a>
+      <a href="#"><li class="link wings">wings & things</li></a>
+      <a href="#"><li class="link salads">salads</li></a>
+      <a href="#"><li class="link desserts">desserts</li></a>
+      <a href="/drinks.html"><li class="link drinks">drinks</li></a>
+    </div>
+  </nav>
+
+  <section id="preview">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+            
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/tether.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/index.js"></script>
+      <script src="js/map.js"></script>
+      <script src="js/date.js"></script>
+      <script src="js/sidenav.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvMxiN4BDd_lYfXdbmJivmRiE2rKz1v9s&libraries=places"></script>
+    </body>
+</html>
