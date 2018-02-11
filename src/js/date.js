@@ -30,7 +30,6 @@ timer();
 
 function resizeL(img) {
     img.height += "155";
-    console.log('hello');
     }
 function resizeS(img) {
 img.height -= "55";

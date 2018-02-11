@@ -1,0 +1,14 @@
+.pizzaShow {
+  top: 100px;
+  width: 100%;
+  background: #eee;
+  margin: 10px auto;
+  position: relative;
+  text-align: center; }
+
+.pizzas {
+  background: #dec285;
+  height: 125px;
+  width: 125px;
+  display: inline-block;
+  margin: 10px; }

@@ -1,0 +1,28 @@
+$bg-color: #0F1222;
+$pepis-orange: #DF4A39;
+$navbar-color: rgb(16, 16, 16);
+$nav-bg: #0D0D12;
+$blue-button: rgb(0, 81, 255);
+
+body {
+}
+
+//Carousel 
+
+
+.pizzaShow {
+    top: 100px;
+    width: 100%;
+    background: #eee;
+    margin: 10px auto;
+    position: relative;
+    text-align:center;
+}
+.pizzas {
+    background: rgb(222, 194, 133);
+    height: 125px;
+    width: 125px;
+    display:inline-block;
+    margin: 10px;
+
+}

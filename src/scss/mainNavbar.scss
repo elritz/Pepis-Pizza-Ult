@@ -20,7 +20,13 @@ $blue-button: rgb(0, 81, 255);
     height: 100px;
     z-index: 1500;
 }
+#navbar {
+    transition: 2s;
+}
 
+.mainNav {
+    z-index: -100;
+}
 //Navigation
 .mainNav2 {
 position: fixed;

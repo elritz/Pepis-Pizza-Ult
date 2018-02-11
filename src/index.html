@@ -5,6 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/animate.css">
       <link rel="stylesheet" href="css/bootstrap.css">
       <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="css/navbar.css">
@@ -13,16 +14,19 @@
       <link rel="stylesheet" href="css/search.css">
       <link rel="stylesheet" href="css/hamburger.css">
 
+
       <link rel="icon" href="img/pepis-guy.png">
       <title>site60</title>
     </head>
-    <body>
-  <header class="header">
-    <div id="menu-trigger" class="menu-trigger">
+    <body id="body">
+  <header class="header" id="header">
+    <div id="menu-trigger" class="menu-trigger animated rotateIn">
       <span></span>
     </div>
     <div class="location"><i class="fa fa-map-marker"></i> Pepi's Locator</div>
+    <div class="ani animated zoomIn">
     <img class="pepisLogo" src="img/pepisSign.svg">
+  </div>
     <img class="celebrateLogo" src="img/celebrating.png" alt="">
   </header>
   
@@ -59,7 +63,7 @@
   
 
   <nav id="navbar">
-    <div id="mainNav" class="mainNav">
+    <div id="mainNav" class="mainNav animated flipInX">
       <a href="pizza.html"><li class="link pizza">pizza</li></a>
       <a href="#"><li class="link subs">subs</li></a>
       <a href="#"><li class="link wings">wings & things</li></a>
@@ -70,7 +74,7 @@
   </nav>
 
   <section id="preview">
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div id="myCarousel homeCar" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>

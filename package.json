@@ -6,8 +6,8 @@
   "scripts": {
     "start": "gulp"
   },
-
   "dependencies": {
+    "animate.css": "^3.6.1",
     "bootstrap": "4.0.0-alpha.6",
     "font-awesome": "^4.7.0"
   },

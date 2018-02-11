@@ -12,6 +12,12 @@
   height: 100px;
   z-index: 1500; }
 
+#navbar {
+  transition: 2s; }
+
+.mainNav {
+  z-index: -100; }
+
 .mainNav2 {
   position: fixed;
   width: 100%;

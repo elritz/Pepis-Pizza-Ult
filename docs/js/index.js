@@ -4,7 +4,7 @@ $( document ).ready(function() {
     var x = Math.round(Math.random() * 255 );
     var y = Math.round(Math.random() * 255 );
     var z = Math.round(Math.random() * 255 );
-    var box = "box-shadow: 0 -100px 980px rgb("+x+", "+y+", "+z+");";
+    var box = "box-shadow: 0 80px 300px rgb("+x+", "+y+", "+z+");";
     var transition = "transition: 2s ease-in;";
     var element = document.getElementById("mainNav"); 
     element.style = box, transition;

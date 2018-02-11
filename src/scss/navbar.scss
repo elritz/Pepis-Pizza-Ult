@@ -3,7 +3,7 @@ $pepis-orange: #DF4A39;
 $nav-bg: #0D0D12;
 $blue-button: rgb(0, 81, 255);
 
-//Navigation
+//Navigation for Home Screen
 .mainNav {
 position: absolute;
 left: 0; right: 0;
@@ -12,9 +12,9 @@ height: 65px;
 font-size: 20px;
 text-align: center;
 padding: 0px 0; 
-background: $nav-bg; 
-box-shadow: 0 -100px 980px orange; 
-z-index: 1300}
+background: $nav-bg;
+box-shadow: 0 50px 300px #f38125;
+z-index: 1000}
 
 //Sticky 
 .mainNav2 {
