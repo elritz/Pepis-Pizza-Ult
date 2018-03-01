@@ -15,7 +15,7 @@ $(window).scroll(function() {
 
   });
   
-  var stickyNavTop = $('.mainNav').offset().top;
+  var stickyNavTop = $('.mainNav').offset();
   
     var stickyNav = function(){
       var scrollTop = $(window).scrollTop();

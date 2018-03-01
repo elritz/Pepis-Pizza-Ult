@@ -10,7 +10,7 @@
   top: 10px;
   right: 30px;
   height: 100px;
-  z-index: 1500; }
+  z-index: 15000; }
 
 #navbar {
   transition: 2s; }
@@ -25,7 +25,6 @@
   right: 0;
   height: 65px;
   top: 0;
-  z-index: 1000;
   text-align: center;
   padding: 0px 0;
   background: #0D0D12;

@@ -1,14 +1,43 @@
 .pizzaShow {
   top: 100px;
   width: 100%;
-  background: #eee;
   margin: 10px auto;
-  position: relative;
-  text-align: center; }
+  position: absolute;
+  text-align: center;
+  z-index: 1200;
+  margin-bottom: 10px; }
 
 .pizzas {
   background: #dec285;
   height: 125px;
   width: 125px;
   display: inline-block;
-  margin: 10px; }
+  margin: 5px; }
+
+.pizzas-gf {
+  background: #de6485;
+  height: 125px;
+  width: 125px;
+  display: inline-block;
+  margin: 5px; }
+
+.fa-angle-down, .fa-angle-up {
+  font-size: 24px;
+  color: #DF4A39;
+  display: block;
+  margin-left: 50%;
+  transform: translateX(-50%); }
+
+.gf {
+  display: none;
+  transition: 1s; }
+
+.show-gf {
+  width: 300px;
+  cursor: pointer; }
+
+.top-img {
+  height: 150px; }
+
+#toppings {
+  margin-top: 300px; }

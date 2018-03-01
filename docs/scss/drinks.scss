@@ -1,0 +1,58 @@
+.drinkAll {
+    background-image: url('../img/waterSplash.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200vw 100vh;
+}
+.carousel {
+    margin-top: 40px;
+    height: 200px;
+
+}
+
+.newChild {
+    width: 100%;
+    display: inline-block;
+
+}
+.logo {
+    display: inline-block;
+    height: 150px;
+    margin-left: 50%;
+    margin-top: 50px;
+    transform: translate(-50%);
+    
+
+}
+
+.col-sm {
+    height: 250px;
+    min-width: 100px;
+    margin: 1px;
+    text-align: center;
+}
+
+
+.logo-inner {
+    height: 150px;
+    margin-top: 50%;
+    transform: translateY(-50%);
+    transition: 1s;
+}
+.logo-inner:hover {
+    height: 200px;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width:950px) {
+    .logo-inner {
+        height: 110px;
+        margin-top: 50%;
+        transform: translateY(-50%);
+        transition: 1s;
+    }
+    .logo-inner:hover {
+        height: 180px;
+        transition: 0.5s;
+    }
+}

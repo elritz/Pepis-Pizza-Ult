@@ -21,20 +21,20 @@
     <body>
 
   <nav id="navbar">
-    <div id="menu-trigger" class="menu-trigger animated rotateIn">
-      <span></span>
-    </div>
-    <div id="mainNav" class="mainNav2 animated slideInDown">
-      <a href="index.html"><li class="link fa fa-home" aria-hidden="true"></li></a> 
-      <a href="pizza.html"><li class="link pizza">pizza</li></a>
-      <a href="#"><li class="link subs">subs</li></a>
-      <a href="#"><li class="link wings">wings & things</li></a>
-      <a href="#"><li class="link salads">salads</li></a>
-      <a href="#"><li class="link desserts">desserts</li></a>
-      <a href="drinks.html"><li class="link drinks">drinks</li></a>
-    </div>
-    <img class="pepisLogo animated flipInY" src="img/pepisguy.svg">
-  </nav>
+      <div id="menu-trigger" class="menu-trigger animated rotateIn">
+          <span></span>
+          </div>
+      <div id="mainNav" class="mainNav2 animated slideInDown">
+        <a href="index.html"><li class="link fa fa-home" aria-hidden="true"></li></a> 
+        <a href="pizza.html"><li class="link pizza">pizza</li></a>
+        <a href="#"><li class="link subs">subs</li></a>
+        <a href="#"><li class="link wings">wings & things</li></a>
+        <a href="#"><li class="link salads">salads</li></a>
+        <a href="#"><li class="link desserts">desserts</li></a>
+        <a href="drinks.html"><li class="link drinks">drinks</li></a>
+      </div>
+      <img class="pepisLogo animated flipInY" src="img/pepisguy.svg">
+    </nav>
   
   <section id="sideNavigation">
     <div class="navClosed">
@@ -69,24 +69,92 @@
     <div class="pizzas">
         <h1>Square</h1>
       </div>
-
-    <div class="gf">
-        <div class="pizzas">
-            <h1>Small</h1>
-          </div>
-          <div class="pizzas">
-            <h1>Med</h1>
-          </div>
-          <div class="pizzas">
-            <h1>Large</h1>
-          </div>
+      
+    <div class="gf" id="gf">
+      <div class="pizzas-gf">
+        <h1>Small</h1>
+      </div>
+      <div class="pizzas-gf">
+        <h1>Med</h1>
+      </div>
+      <div class="pizzas-gf">
+        <h1>Large</h1>
+      </div>
     </div>
+  <div id="show" class="show-gf centerX">
+    <p style="margin: 10px 0px; color: rgb(187, 187, 187);">Show Gluten Free <i class="fa fa-angle-down"></i></p>
+  </div>
+
+  <!-- <div class="hide-gf">
+    <p onclick="hides()" style="margin: 10px 0px; color: rgb(187, 187, 187);">Hide Gluten Free <i class="fa fa-angle-up"></i></p>
+  </div> -->
+</section>
+
+<section id="toppings">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <img class="top-img" src="img/toppings/X.png">
+      </div>
+      <div class="col-md-3">
+        <img class="top-img" src="img/toppings/gp.png">
+      </div>
+      <div class="col-md-3">
+        <img class="top-img"  style="height: 120px;" src="img/toppings/mush.png">
+      </div>
+      <div class="col-md-3">
+        <img class="top-img" src="img/toppings/pa.png">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <img class="top-img" src="img/toppings/on.png">
+      </div>
+      <div class="col-md-3">
+        <img class="top-img" src="img/toppings/rdOn.png">
+      </div>
+      <div class="col-md-3">
+        <img class="top-img" src="img/toppings/feta.png">
+      </div>
+      <div class="col-md-3">
+        <img class="top-img" src="img/toppings/tom.png">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <img class="top-img" src="img/toppings/ol.png">
+      </div>
+      <div class="col-md-3">
+        <img class="top-img" src="img/toppings/bOl.png">
+      </div>
+      <div class="col-md-3">
+        <img class="top-img" src="img/toppings/bOl.png">
+      </div>
+      <div class="col-md-3">
+        <img class="top-img" style="height: 100px;" src="img/toppings/ch.png">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <img class="top-img" src="img/toppings/bac.png">
+      </div>
+      <div class="col-md-3">
+        <img class="top-img" src="img/toppings/ham.png">
+      </div>
+      <div class="col-md-3">
+        <img class="top-img" src="img/toppings/gb.png">
+      </div>
+      <div class="col-md-3">
+        <img class="top-img" src="img/toppings/sal.png">
+      </div>
+    </div>
+  </div>
 </section>
 
 
 
 
-
+    <script src="js/pizza.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/tether.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

@@ -4,8 +4,6 @@ $navbar-color: rgb(16, 16, 16);
 $nav-bg: #0D0D12;
 $blue-button: rgb(0, 81, 255);
 
-body {
-}
 
 //Carousel 
 
@@ -13,16 +11,53 @@ body {
 .pizzaShow {
     top: 100px;
     width: 100%;
-    background: #eee;
+    // background: #eee;
     margin: 10px auto;
-    position: relative;
+    position: absolute;
     text-align:center;
+    z-index: 1200;
+    margin-bottom: 10px;
 }
 .pizzas {
     background: rgb(222, 194, 133);
     height: 125px;
     width: 125px;
     display:inline-block;
-    margin: 10px;
+    margin: 5px;
+} 
+.pizzas-gf {
+    background: rgb(222, 100, 133);
+    height: 125px;
+    width: 125px; 
+    display:inline-block;
+    margin: 5px;
+}
 
+
+.fa-angle-down, .fa-angle-up {
+    font-size: 24px;
+    color: $pepis-orange;
+    display: block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.gf {
+    display: none;
+    transition: 1s;
+}
+
+.show-gf {
+
+    width: 300px;
+    cursor: pointer;
+}
+
+
+
+
+.top-img {
+    height: 150px;
+}
+#toppings {
+    margin-top: 300px;
 }
