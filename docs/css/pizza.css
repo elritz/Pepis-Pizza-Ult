@@ -36,8 +36,19 @@
   width: 300px;
   cursor: pointer; }
 
+.textTop {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%); }
+
 .top-img {
-  height: 150px; }
+  height: 150px;
+  margin-left: 50%;
+  transform: translateX(-50%); }
 
 #toppings {
   margin-top: 300px; }
