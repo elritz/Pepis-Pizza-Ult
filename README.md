@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 # Bootstrap 4 Starter Pack (ALPHA 4.0.0-6)
-
-Includes complete Bootstrap 4.0.0-alpha6 dev environment with gulp and sass
+Link to demo of:
+ https://cfirmi.github.io/PepisWebsitePictures/
 
 ### Version
 
