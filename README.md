@@ -1,5 +1,6 @@
-<<<<<<< HEAD
-# Bootstrap 4 Starter Pack (ALPHA 4.0.0-6)
+# Bootstrap 4 | HTML | SASS | CSS
+
+Mainly used to get layouts for item worked out.
 Link to demo of:
  https://cfirmi.github.io/PepisWebsitePictures/
 
@@ -18,9 +19,4 @@ npm install
 ```bash
 npm start
 ```
-
-Files are compiled into /src
-=======
-# site60
 Pepi's Pizza Website
->>>>>>> d8e1c9acbe8d08cd1c72528ae03ec3235bfebdd1
